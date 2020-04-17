@@ -1,8 +1,8 @@
 package days.second;
 
-/**
- *    Justas
- */
+
+     ////@Justas
+
 
 import java.text.DecimalFormat;
 import java.util.InputMismatchException;
