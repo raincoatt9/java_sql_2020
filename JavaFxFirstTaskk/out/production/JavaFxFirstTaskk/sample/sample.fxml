@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="500.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" layoutX="208.0" layoutY="36.0" text="Spekite skaiciu nuo 1 iki 10 !" textFill="#8a2020">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="284.0" layoutY="163.0" mnemonicParsing="false" onAction="#guessNumber" text="Spek!" />
+            <TextField fx:id="numberField" layoutX="232.0" layoutY="106.0" />
+            <Label fx:id="answerLabel" alignment="CENTER" layoutX="223.0" layoutY="265.0" prefHeight="25.0" prefWidth="168.0" textFill="#16a150">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="randomNumber1" alignment="CENTER" layoutX="215.0" layoutY="337.0" prefHeight="25.0" prefWidth="184.0" textFill="#bc1f1f">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</GridPane>
