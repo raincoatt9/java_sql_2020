@@ -4,8 +4,6 @@ package days.third;
 
 
 import days.second.numberUtils;
-
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Calc {
